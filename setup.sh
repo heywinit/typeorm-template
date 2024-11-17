@@ -27,3 +27,7 @@ mv "$TMP_FILE" "$TSCONFIG_PATH"
 
 echo "Successfully updated tsconfig.json with decorator metadata settings"
 
+
+# delete the setup.sh, readme.md
+rm setup.sh
+rm readme.md
